@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F8FAFB;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 민트색 계열의 색상 변수들 */
+:root {
+  --primary-mint: #2A9D8F;
+  --light-mint: #E6F5F3;
+  --dark-mint: #1F7268;
+  --hover-mint: #248F82;
+} 
